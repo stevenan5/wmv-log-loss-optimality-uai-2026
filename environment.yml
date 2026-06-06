@@ -1,0 +1,14 @@
+name: wmv_log_loss
+channels:
+  - defaults
+dependencies:
+  - numpy=2.4.1
+  - scipy=1.16.3
+  - conda-forge::cvxpy=1.7.5
+  - mosek::mosek=11.1.3
+  - gmpy2=2.2.2
+  - matplotlib=3.10.8
+  - pip=26.0.1
+  - python=3.14.2
+  - pip:
+      - pycddlib==3.0.2

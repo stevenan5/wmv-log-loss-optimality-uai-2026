@@ -1,0 +1,40 @@
+This is LattE integrale 1.7.6
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_2_k_2_dec_4_rndeps_0_appeps_0_generalist_n_400/input_44_run_0.ine 
+Warning: Not performing check for empty polytope, because it is unimplemented for the CDD-style input format. 
+size = 9 x 5
+Number Type = rational
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 0 1 0 0]
+[0 0 0 1 0]
+
+Ax = b, given as (b|-A):
+========================
+[29520 -81 -41 -41 -81]
+[16400 -81 -41 -41 -1]
+[16400 -1 -41 -41 -81]
+
+Computing hermitean normal form.
+sol:
+[29520 -164 -728 0]
+Particular solution:
+[164 72 0 164]
+Basis:
+[0 -1 1 0]
+New inequalities:
+[72 -1 0]
+[0 1 0]
+Time for reading and preprocessing: 0 sec
+(First dualizing back... Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+done!) Triangulating cone... done.
+
+Volume (using the triangulation-determinant method)
+     Answer: 72
+     Decimal: 72
+     Time: 0 sec
+Computational time (algorithms + processing + program control)
+     Total time: 0 sec

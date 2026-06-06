@@ -1,0 +1,362 @@
+This is LattE integrale 1.7.6
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/mv_estim_p_3_k_2_dec_4_rndeps_0.001_appeps_0.1_generalist_n_1000/input_0_run_0.ine 
+Warning: Not performing check for empty polytope, because it is unimplemented for the CDD-style input format. 
+size = 19 x 9
+Number Type = rational
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[7010000 -9525 -7310 -2689 -7310 -7310 -2689 -7310 -9525]
+[7010000 -9525 -2689 -7310 -7310 -7310 -7310 -2689 -9525]
+[-7989999 9525 7310 7310 2689 2689 7310 7310 9525]
+[-3990000 9525 7310 7310 2689 7310 2689 2689 474]
+[-3990000 474 2689 2689 7310 2689 7310 7310 9525]
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 1]
+
+Ax = b, given as (b|-A):
+========================
+[-1000 1 1 1 1 1 1 1 1]
+
+Computing hermitean normal form.
+sol:
+[-1000 0 0 0 0 0 0 0]
+Particular solution:
+[1000 0 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0 0]
+[-1 0 1 0 0 0 0 0]
+[-1 0 0 1 0 0 0 0]
+[-1 0 0 0 1 0 0 0]
+[-1 0 0 0 0 1 0 0]
+[-1 0 0 0 0 0 1 0]
+[-1 0 0 0 0 0 0 1]
+New inequalities:
+[-2515000 2215 6836 2215 2215 6836 2215 0 0]
+[-2515000 6836 2215 2215 2215 2215 6836 0 0]
+[1535001 -2215 -2215 -6836 -6836 -2215 -2215 0 0]
+[5535000 -2215 -2215 -6836 -2215 -6836 -6836 -9051 0]
+[-3516000 2215 2215 6836 2215 6836 6836 9051 0]
+[1000 -1 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0.01 sec
+(First dualizing back... Dualizing all cones...Ray Support Algorithm.
+The codimension is 13
+
+  Left =   5,  Col =   9,  Size =        8  Time:  0.00
+  Left =   5,  Col =   9,  Size =        8,   Index = 0/3
+  Left =   5,  Col =   9,  Size =       18,  Time:  0.00                
+
+  Left =   4,  Col =   8,  Size =       18  Time:  0.00
+  Left =   4,  Col =   8,  Size =       10,   Index = 0/6
+  Left =   4,  Col =   8,  Size =       30,  Time:  0.00                
+
+  Left =   3,  Col =  10,  Size =       30  Time:  0.00
+  Left =   3,  Col =  10,  Size =       23,   Index = 0/9
+  Left =   3,  Col =  10,  Size =       44,  Time:  0.00                
+
+  Left =   2,  Col =  11,  Size =       44  Time:  0.00
+  Left =   2,  Col =  11,  Size =       33,   Index = 0/14
+  Left =   2,  Col =  11,  Size =       58,  Time:  0.00                
+
+  Left =   1,  Col =  12,  Size =       58  Time:  0.00
+  Left =   1,  Col =  12,  Size =       57,   Index = 0/7
+  Left =   1,  Col =  12,  Size =       76,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+done!) Triangulating cone... Ray Support Algorithm.
+The codimension is 77
+
+  Left =  68,  Col =  51,  Size =        9  Time:  0.00
+  Left =  68,  Col =  51,  Size =        9,   Index = 0/3
+  Left =  68,  Col =  51,  Size =       17,  Time:  0.00                
+
+  Left =  67,  Col =  48,  Size =       17  Time:  0.00
+  Left =  67,  Col =  48,  Size =       11,   Index = 0/7
+  Left =  67,  Col =  48,  Size =       34,  Time:  0.00                
+
+  Left =  66,  Col =  38,  Size =       34  Time:  0.00
+  Left =  66,  Col =  38,  Size =       21,   Index = 0/15
+  Left =  66,  Col =  38,  Size =       48,  Time:  0.00                
+
+  Left =  65,  Col =  18,  Size =       48  Time:  0.00
+  Left =  65,  Col =  18,  Size =       48,   Index = 0/21
+  Left =  65,  Col =  18,  Size =       81,  Time:  0.00                
+
+  Left =  64,  Col =   5,  Size =       81  Time:  0.00
+  Left =  64,  Col =   5,  Size =       45,   Index = 0/34
+  Left =  64,  Col =   5,  Size =       88,  Time:  0.00                
+
+  Left =  63,  Col =  23,  Size =       88  Time:  0.01
+  Left =  63,  Col =  23,  Size =       70,   Index = 0/37
+  Left =  63,  Col =  23,  Size =      148,  Time:  0.01                
+
+  Left =  62,  Col =  35,  Size =      148  Time:  0.01
+  Left =  62,  Col =  35,  Size =       85,   Index = 0/63
+  Left =  62,  Col =  35,  Size =      171,  Time:  0.01                
+
+  Left =  61,  Col =  72,  Size =      171  Time:  0.01
+  Left =  61,  Col =  72,  Size =       96,   Index = 0/77
+  Left =  61,  Col =  72,  Size =      200,  Time:  0.01                
+
+  Left =  60,  Col =  76,  Size =      200  Time:  0.01
+  Left =  60,  Col =  76,  Size =      117,   Index = 0/85
+  Left =  60,  Col =  76,  Size =      151,  Time:  0.02                
+
+  Left =  59,  Col =   8,  Size =      151  Time:  0.02
+  Left =  59,  Col =   8,  Size =       88,   Index = 0/64
+  Left =  59,  Col =   8,  Size =      170,  Time:  0.02                
+
+  Left =  58,  Col =  13,  Size =      170  Time:  0.02
+  Left =  58,  Col =  13,  Size =      107,   Index = 0/64
+  Left =  58,  Col =  13,  Size =      186,  Time:  0.02                
+
+  Left =  57,  Col =  73,  Size =      186  Time:  0.02
+  Left =  57,  Col =  73,  Size =      114,   Index = 0/72
+  Left =  57,  Col =  73,  Size =      205,  Time:  0.02                
+
+  Left =  56,  Col =  44,  Size =      205  Time:  0.02
+  Left =  56,  Col =  44,  Size =      135,   Index = 0/71
+  Left =  56,  Col =  44,  Size =      217,  Time:  0.03                
+
+  Left =  55,  Col =  68,  Size =      217  Time:  0.03
+  Left =  55,  Col =  68,  Size =      161,   Index = 0/57
+  Left =  55,  Col =  68,  Size =      236,  Time:  0.03                
+
+  Left =  54,  Col =  45,  Size =      236  Time:  0.03
+  Left =  54,  Col =  45,  Size =      170,   Index = 0/66
+  Left =  54,  Col =  45,  Size =      237,  Time:  0.03                
+
+  Left =  53,  Col =  71,  Size =      237  Time:  0.03
+  Left =  53,  Col =  71,  Size =      167,   Index = 0/71
+  Left =  53,  Col =  71,  Size =      239,  Time:  0.04                
+
+  Left =  52,  Col =  65,  Size =      239  Time:  0.04
+  Left =  52,  Col =  65,  Size =      178,   Index = 0/61
+  Left =  52,  Col =  65,  Size =      248,  Time:  0.04                
+
+  Left =  51,  Col =  66,  Size =      248  Time:  0.04
+  Left =  51,  Col =  66,  Size =      196,   Index = 0/54
+  Left =  51,  Col =  66,  Size =      255,  Time:  0.04                
+
+  Left =  50,  Col =  29,  Size =      255  Time:  0.04
+  Left =  50,  Col =  29,  Size =      203,   Index = 0/52
+  Left =  50,  Col =  29,  Size =      280,  Time:  0.04                
+
+  Left =  49,  Col =  15,  Size =      280  Time:  0.04
+  Left =  49,  Col =  15,  Size =      230,   Index = 0/51
+  Left =  49,  Col =  15,  Size =      290,  Time:  0.05                
+
+  Left =  48,  Col =  64,  Size =      290  Time:  0.05
+  Left =  48,  Col =  64,  Size =      254,   Index = 0/38
+  Left =  48,  Col =  64,  Size =      318,  Time:  0.05                
+
+  Left =  47,  Col =  58,  Size =      318  Time:  0.05
+  Left =  47,  Col =  58,  Size =      267,   Index = 0/53
+  Left =  47,  Col =  58,  Size =      326,  Time:  0.05                
+
+  Left =  46,  Col =  55,  Size =      326  Time:  0.05
+  Left =  46,  Col =  55,  Size =      282,   Index = 0/44
+  Left =  46,  Col =  55,  Size =      340,  Time:  0.05                
+
+  Left =  45,  Col =  75,  Size =      340  Time:  0.05
+  Left =  45,  Col =  75,  Size =      290,   Index = 0/50
+  Left =  45,  Col =  75,  Size =      345,  Time:  0.06                
+
+  Left =  44,  Col =  43,  Size =      345  Time:  0.06
+  Left =  44,  Col =  43,  Size =      301,   Index = 0/45
+  Left =  44,  Col =  43,  Size =      349,  Time:  0.06                
+
+  Left =  43,  Col =  17,  Size =      349  Time:  0.06
+  Left =  43,  Col =  17,  Size =      313,   Index = 0/36
+  Left =  43,  Col =  17,  Size =      351,  Time:  0.06                
+
+  Left =  42,  Col =  16,  Size =      351  Time:  0.06
+  Left =  42,  Col =  16,  Size =      315,   Index = 0/37
+  Left =  42,  Col =  16,  Size =      353,  Time:  0.06                
+
+  Left =  41,  Col =  74,  Size =      353  Time:  0.07
+  Left =  41,  Col =  74,  Size =      319,   Index = 0/34
+  Left =  41,  Col =  74,  Size =      359,  Time:  0.07                
+
+  Left =  40,  Col =  33,  Size =      359  Time:  0.07
+  Left =  40,  Col =  33,  Size =      328,   Index = 0/32
+  Left =  40,  Col =  33,  Size =      373,  Time:  0.07                
+
+  Left =  39,  Col =  41,  Size =      373  Time:  0.07
+  Left =  39,  Col =  41,  Size =      344,   Index = 0/31
+  Left =  39,  Col =  41,  Size =      378,  Time:  0.07                
+
+  Left =  38,  Col =  22,  Size =      378  Time:  0.07
+  Left =  38,  Col =  22,  Size =      350,   Index = 0/29
+  Left =  38,  Col =  22,  Size =      394,  Time:  0.08                
+
+  Left =  37,  Col =  20,  Size =      394  Time:  0.08
+  Left =  37,  Col =  20,  Size =      365,   Index = 0/31
+  Left =  37,  Col =  20,  Size =      411,  Time:  0.08                
+
+  Left =  36,  Col =  12,  Size =      411  Time:  0.08
+  Left =  36,  Col =  12,  Size =      385,   Index = 0/28
+  Left =  36,  Col =  12,  Size =      419,  Time:  0.08                
+
+  Left =  35,  Col =  59,  Size =      419  Time:  0.08
+  Left =  35,  Col =  59,  Size =      408,   Index = 0/12
+  Left =  35,  Col =  59,  Size =      443,  Time:  0.09                
+
+  Left =  34,  Col =  63,  Size =      443  Time:  0.09
+  Left =  34,  Col =  63,  Size =      422,   Index = 0/22
+  Left =  34,  Col =  63,  Size =      458,  Time:  0.09                
+
+  Left =  33,  Col =  32,  Size =      458  Time:  0.09
+  Left =  33,  Col =  32,  Size =      440,   Index = 0/19
+  Left =  33,  Col =  32,  Size =      467,  Time:  0.09                
+
+  Left =  32,  Col =  28,  Size =      467  Time:  0.09
+  Left =  32,  Col =  28,  Size =      451,   Index = 0/18
+  Left =  32,  Col =  28,  Size =      470,  Time:  0.09                
+
+  Left =  31,  Col =  30,  Size =      470  Time:  0.10
+  Left =  31,  Col =  30,  Size =      457,   Index = 0/16
+  Left =  31,  Col =  30,  Size =      492,  Time:  0.10                
+
+  Left =  30,  Col =  40,  Size =      492  Time:  0.10
+  Left =  30,  Col =  40,  Size =      471,   Index = 0/23
+  Left =  30,  Col =  40,  Size =      508,  Time:  0.10                
+
+  Left =  29,  Col =  50,  Size =      508  Time:  0.10
+  Left =  29,  Col =  50,  Size =      477,   Index = 0/34
+  Left =  29,  Col =  50,  Size =      528,  Time:  0.10                
+
+  Left =  28,  Col =  70,  Size =      528  Time:  0.10
+  Left =  28,  Col =  70,  Size =      484,   Index = 0/45
+  Left =  28,  Col =  70,  Size =      531,  Time:  0.11                
+
+  Left =  27,  Col =  37,  Size =      531  Time:  0.11
+  Left =  27,  Col =  37,  Size =      489,   Index = 0/43
+  Left =  27,  Col =  37,  Size =      538,  Time:  0.11                
+
+  Left =  26,  Col =  56,  Size =      538  Time:  0.11
+  Left =  26,  Col =  56,  Size =      514,   Index = 0/25
+  Left =  26,  Col =  56,  Size =      552,  Time:  0.12                
+
+  Left =  25,  Col =  67,  Size =      552  Time:  0.12
+  Left =  25,  Col =  67,  Size =      527,   Index = 0/25
+  Left =  25,  Col =  67,  Size =      562,  Time:  0.12                
+
+  Left =  24,  Col =  46,  Size =      562  Time:  0.12
+  Left =  24,  Col =  46,  Size =      547,   Index = 0/18
+  Left =  24,  Col =  46,  Size =      572,  Time:  0.12                
+
+  Left =  23,  Col =  27,  Size =      572  Time:  0.12
+  Left =  23,  Col =  27,  Size =      553,   Index = 0/19
+  Left =  23,  Col =  27,  Size =      581,  Time:  0.13                
+
+  Left =  22,  Col =  60,  Size =      581  Time:  0.13
+  Left =  22,  Col =  60,  Size =      560,   Index = 0/23
+  Left =  22,  Col =  60,  Size =      592,  Time:  0.13                
+
+  Left =  21,  Col =  49,  Size =      592  Time:  0.13
+  Left =  21,  Col =  49,  Size =      571,   Index = 0/22
+  Left =  21,  Col =  49,  Size =      597,  Time:  0.14                
+
+  Left =  20,  Col =  47,  Size =      597  Time:  0.14
+  Left =  20,  Col =  47,  Size =      581,   Index = 0/17
+  Left =  20,  Col =  47,  Size =      604,  Time:  0.14                
+
+  Left =  19,  Col =  53,  Size =      604  Time:  0.14
+  Left =  19,  Col =  53,  Size =      592,   Index = 0/17
+  Left =  19,  Col =  53,  Size =      617,  Time:  0.15                
+
+  Left =  18,  Col =  54,  Size =      617  Time:  0.15
+  Left =  18,  Col =  54,  Size =      593,   Index = 0/25
+  Left =  18,  Col =  54,  Size =      610,  Time:  0.15                
+
+  Left =  17,  Col =  62,  Size =      610  Time:  0.15
+  Left =  17,  Col =  62,  Size =      592,   Index = 0/18
+  Left =  17,  Col =  62,  Size =      615,  Time:  0.16                
+
+  Left =  16,  Col =  39,  Size =      615  Time:  0.16
+  Left =  16,  Col =  39,  Size =      603,   Index = 0/12
+  Left =  16,  Col =  39,  Size =      615,  Time:  0.16                
+
+  Left =  15,  Col =   7,  Size =      615  Time:  0.16
+  Left =  15,  Col =   7,  Size =      606,   Index = 0/10
+  Left =  15,  Col =   7,  Size =      615,  Time:  0.17                
+
+  Left =  14,  Col =  19,  Size =      615  Time:  0.17
+  Left =  14,  Col =  19,  Size =      608,   Index = 0/10
+  Left =  14,  Col =  19,  Size =      617,  Time:  0.18                
+
+  Left =  13,  Col =  57,  Size =      617  Time:  0.18
+  Left =  13,  Col =  57,  Size =      610,   Index = 0/8
+  Left =  13,  Col =  57,  Size =      617,  Time:  0.18                
+
+  Left =  12,  Col =  34,  Size =      617  Time:  0.18
+  Left =  12,  Col =  34,  Size =      612,   Index = 0/6
+  Left =  12,  Col =  34,  Size =      621,  Time:  0.19                
+
+  Left =  11,  Col =  14,  Size =      621  Time:  0.19
+  Left =  11,  Col =  14,  Size =      618,   Index = 0/5
+  Left =  11,  Col =  14,  Size =      622,  Time:  0.19                
+
+  Left =  10,  Col =  21,  Size =      622  Time:  0.19
+  Left =  10,  Col =  21,  Size =      618,   Index = 0/5
+  Left =  10,  Col =  21,  Size =      622,  Time:  0.20                
+
+  Left =   9,  Col =  31,  Size =      622  Time:  0.20
+  Left =   9,  Col =  31,  Size =      618,   Index = 0/5
+  Left =   9,  Col =  31,  Size =      624,  Time:  0.20                
+
+  Left =   8,  Col =  42,  Size =      624  Time:  0.20
+  Left =   8,  Col =  42,  Size =      620,   Index = 0/5
+  Left =   8,  Col =  42,  Size =      624,  Time:  0.21                
+
+  Left =   7,  Col =  52,  Size =      624  Time:  0.21
+  Left =   7,  Col =  52,  Size =      620,   Index = 0/5
+  Left =   7,  Col =  52,  Size =      626,  Time:  0.21                
+
+  Left =   6,  Col =  69,  Size =      626  Time:  0.21
+  Left =   6,  Col =  69,  Size =      626,   Index = 0/2
+  Left =   6,  Col =  69,  Size =      626,  Time:  0.22                
+
+  Left =   5,  Col =  11,  Size =      626  Time:  0.22
+  Left =   5,  Col =  11,  Size =      626,   Index = 0/1
+  Left =   5,  Col =  11,  Size =      626,  Time:  0.22                
+
+  Left =   4,  Col =  24,  Size =      626  Time:  0.22
+  Left =   4,  Col =  24,  Size =      626,   Index = 0/1
+  Left =   4,  Col =  24,  Size =      626,  Time:  0.23                
+
+  Left =   3,  Col =  26,  Size =      626  Time:  0.23
+  Left =   3,  Col =  26,  Size =      626,   Index = 0/1
+  Left =   3,  Col =  26,  Size =      626,  Time:  0.23                
+
+  Left =   2,  Col =  36,  Size =      626  Time:  0.23
+  Left =   2,  Col =  36,  Size =      626,   Index = 0/1
+  Left =   2,  Col =  36,  Size =      626,  Time:  0.24                
+
+  Left =   1,  Col =  61,  Size =      626  Time:  0.24
+  Left =   1,  Col =  61,  Size =      626,   Index = 0/1
+  Left =   1,  Col =  61,  Size =      626,  Time:  0.24                
+done.
+
+Volume (using the triangulation-determinant method)
+     Answer: 257590792059236494148425584801486197640879299089082446484122044497170943408471992221670144823/3120905331636968270733138487070731168436007972545817202030738684090808748000000
+     Decimal: 82537201448569.96165981341115919
+     Time: 0.26 sec
+Computational time (algorithms + processing + program control)
+     Total time: 0.27 sec

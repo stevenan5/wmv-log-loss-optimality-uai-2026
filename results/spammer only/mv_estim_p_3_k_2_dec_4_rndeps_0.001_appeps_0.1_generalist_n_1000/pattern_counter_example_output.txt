@@ -1,0 +1,13 @@
+No bookkeeping file found, writing new bookkeeping .mat file to  ./results/mv_estim_p_3_k_2_dec_4_rndeps_0.001_appeps_0.1_generalist_n_1000/mv_estim_p_3_k_2_dec_4_rndeps_0.001_appeps_0.1_generalist_n_1000_bookkeeping.mat
+Number of patterns/dimensions:  8
+Constructing input file for  EPS_OPT_PATTERNS
+Dimension of polytope is  7
+--------------------------------------
+Command:  integrate
+Polytope type:  EPS_OPT_PATTERNS
+Exact Result: False (Result is an Estimate)
+Running:  integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/mv_estim_p_3_k_2_dec_4_rndeps_0.001_appeps_0.1_generalist_n_1000/input_0_run_0.ine
+
+Output Volume:  16158622557948795563773396927453327129677575731246714706325187656250000000000000/411450412983797619394095673569071111974248323764974994564416741
+True rule accuracies are:  ['0.6', '0.6', '0.6']
+True class frequencies are:  ['0.5', '0.5']

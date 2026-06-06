@@ -1,0 +1,56 @@
+This is LattE integrale 1.7.6
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_3_k_2_dec_4_rndeps_0_appeps_1_10_generalist_n_1000/input_0_run_2.ine 
+Warning: Not performing check for empty polytope, because it is unimplemented for the CDD-style input format. 
+size = 9 x 9
+Number Type = rational
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+[1000 -1 -1 -1 -1 -1 -1 -1 0]
+
+Ax = b, given as (b|-A):
+========================
+[-1000 1 1 1 1 1 1 1 1]
+
+Computing hermitean normal form.
+sol:
+[-1000 0 0 0 0 0 0 0]
+Particular solution:
+[1000 0 0 0 0 0 0 0]
+Basis:
+[-1 1 0 0 0 0 0 0]
+[-1 0 1 0 0 0 0 0]
+[-1 0 0 1 0 0 0 0]
+[-1 0 0 0 1 0 0 0]
+[-1 0 0 0 0 1 0 0]
+[-1 0 0 0 0 0 1 0]
+[-1 0 0 0 0 0 0 1]
+New inequalities:
+[1000 -1 -1 -1 -1 -1 -1 -1 0]
+[0 1 0 0 0 0 0 0 0]
+[0 0 1 0 0 0 0 0 0]
+[0 0 0 1 0 0 0 0 0]
+[0 0 0 0 1 0 0 0 0]
+[0 0 0 0 0 1 0 0 0]
+[0 0 0 0 0 0 1 0 0]
+[0 0 0 0 0 0 0 1 0]
+Time for reading and preprocessing: 0 sec
+(First dualizing back... Dualizing all cones...All cones are now dualized.
+Time for dualizing general cones: 0 sec
+done!) Triangulating cone... done.
+
+Volume (using the triangulation-determinant method)
+     Answer: 12500000000000000000/63
+     Decimal: 198412698412698412.6984126984127
+     Time: 0 sec
+Computational time (algorithms + processing + program control)
+     Total time: 0 sec

@@ -1,0 +1,20 @@
+* Polytope enum: POSSIBLE_PATTERNS_ALL
+* Construction Information:
+* n_classes: 2
+* n_rules: 2
+* n_patterns (dimensions): 4
+* polytope dimension: 3
+* true accs: [mpq(7,10) mpq(7,10)]
+* true class_freqs: [mpq(1,2) mpq(1,2)]
+* rounding epsilon: 0
+* appropriateness epsilon: 0
+H-representation
+linearity 1  1
+begin
+ 5 5 rational
+ -400 1 1 1 1
+ 0 1 0 0 0
+ 0 0 1 0 0
+ 0 0 0 1 0
+ 0 0 0 0 1
+end

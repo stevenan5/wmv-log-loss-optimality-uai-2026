@@ -1,0 +1,10 @@
+Time for reading and preprocessing: 23.08 sec
+Time for computing vertices and supporting cones: 3.58 sec
+Time for irrationalizing general cones: 0.78 sec
+Time for dualizing general cones: 3.23 sec
+Time for triangulating cones into simplicial cones: 75.96 sec
+Time for Barvinok decomposition and residue calculation: 50499.3 sec
+Total time: 50606.3 sec
+Total number of simplicial cones: 52125
+Total number of low-index cones: 56420967
+Maximum depth of the decomposition tree: 10

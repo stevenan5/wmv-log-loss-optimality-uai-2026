@@ -1,0 +1,35 @@
+* Polytope enum: EPS_OPT_PATTERNS
+* Construction Information:
+* n_classes: 2
+* n_rules: 3
+* n_patterns (dimensions): 8
+* polytope dimension: 7
+* true accs: [mpq(9,10) mpq(3,5) mpq(3,5)]
+* true class_freqs: [mpq(1,2) mpq(1,2)]
+* rounding epsilon: 0
+* appropriateness epsilon: 1/10
+* weighting strategy: ocds
+H-representation
+linearity 1  19
+begin
+ 19 9 rational
+ 170000 -162 -153 -153 -136 -136 -153 -153 -162
+ 119000 -162 -153 -17 -34 -34 -17 -153 -162
+ 119000 -162 -17 -153 -34 -34 -153 -17 -162
+ 102000 -162 -153 -153 -136 -34 -17 -17 -8
+ 102000 -8 -17 -17 -34 -136 -153 -153 -162
+ -136000 162 153 153 136 136 153 153 162
+ -85000 162 153 17 34 34 17 153 162
+ -85000 162 17 153 34 34 153 17 162
+ -68000 162 153 153 136 34 17 17 8
+ -68000 8 17 17 34 136 153 153 162
+ 0 1 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0
+ 0 0 0 1 0 0 0 0 0
+ 0 0 0 0 1 0 0 0 0
+ 0 0 0 0 0 1 0 0 0
+ 0 0 0 0 0 0 1 0 0
+ 0 0 0 0 0 0 0 1 0
+ 0 0 0 0 0 0 0 0 1
+ -1000 1 1 1 1 1 1 1 1
+end

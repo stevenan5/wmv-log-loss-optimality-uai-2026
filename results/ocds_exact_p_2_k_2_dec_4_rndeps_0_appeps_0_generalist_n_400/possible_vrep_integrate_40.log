@@ -1,0 +1,88 @@
+This is LattE integrale 1.7.6
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_2_k_2_dec_4_rndeps_0_appeps_0_generalist_n_400/input_40_run_2.ine 
+Warning: Not performing check for empty polytope, because it is unimplemented for the CDD-style input format. 
+size = 9 x 5
+Number Type = rational
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[0 0 1 0 0]
+[-120 1 0 1 0]
+[-80 1 1 0 0]
+[200 0 -1 -1 0]
+[320 -1 -1 0 0]
+[0 0 0 1 0]
+[-40 0 1 1 0]
+[280 -1 0 -1 0]
+
+Ax = b, given as (b|-A):
+========================
+[-400 1 1 1 1]
+
+Computing hermitean normal form.
+sol:
+[-400 0 0 0]
+Particular solution:
+[400 0 0 0]
+Basis:
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+New inequalities:
+[0 1 0 0 0]
+[280 -1 0 -1 0]
+[320 0 -1 -1 0]
+[200 -1 -1 0 0]
+[-80 0 1 1 0]
+[0 0 1 0 0]
+[-40 1 1 0 0]
+[-120 1 0 1 0]
+Time for reading and preprocessing: 0 sec
+(First dualizing back... Dualizing all cones...Ray Support Algorithm.
+The codimension is 8
+
+  Left =   4,  Col =   4,  Size =        4  Time:  0.00
+  Left =   4,  Col =   4,  Size =        6,   Index = 0/1
+  Left =   4,  Col =   4,  Size =        6,  Time:  0.00                
+
+  Left =   3,  Col =   5,  Size =        6  Time:  0.00
+  Left =   3,  Col =   5,  Size =        7,   Index = 0/1
+  Left =   3,  Col =   5,  Size =        7,  Time:  0.00                
+
+  Left =   2,  Col =   6,  Size =        7  Time:  0.00
+  Left =   2,  Col =   6,  Size =        6,   Index = 0/2
+  Left =   2,  Col =   6,  Size =        8,  Time:  0.00                
+
+  Left =   1,  Col =   7,  Size =        8  Time:  0.00
+  Left =   1,  Col =   7,  Size =        7,   Index = 0/2
+  Left =   1,  Col =   7,  Size =        8,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+done!) Triangulating cone... Ray Support Algorithm.
+The codimension is 9
+
+  Left =   4,  Col =   7,  Size =        5  Time:  0.00
+  Left =   4,  Col =   7,  Size =        5,   Index = 0/2
+  Left =   4,  Col =   7,  Size =        8,  Time:  0.00                
+
+  Left =   3,  Col =   6,  Size =        8  Time:  0.00
+  Left =   3,  Col =   6,  Size =        6,   Index = 0/4
+  Left =   3,  Col =   6,  Size =       12,  Time:  0.00                
+
+  Left =   2,  Col =   5,  Size =       12  Time:  0.00
+  Left =   2,  Col =   5,  Size =       10,   Index = 0/4
+  Left =   2,  Col =   5,  Size =       18,  Time:  0.00                
+
+  Left =   1,  Col =   8,  Size =       18  Time:  0.00
+  Left =   1,  Col =   8,  Size =       13,   Index = 0/7
+  Left =   1,  Col =   8,  Size =       15,  Time:  0.00                
+done.
+
+Volume (using the triangulation-determinant method)
+     Answer: 7168000/3
+     Decimal: 2389333.3333333333333333333333333
+     Time: 0.00 sec
+Computational time (algorithms + processing + program control)
+     Total time: 0.00 sec

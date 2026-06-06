@@ -1,0 +1,74 @@
+This is LattE integrale 1.7.6
+Available from http://www.math.ucdavis.edu/~latte/
+
+Invocation: integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_2_k_2_dec_4_rndeps_0_appeps_0_generalist_n_400/input_8_run_2.ine 
+Warning: Not performing check for empty polytope, because it is unimplemented for the CDD-style input format. 
+size = 8 x 5
+Number Type = rational
+Removing redundant inequalities and finding hidden equalities using cddlib...done. 
+Ax <= b, given as (b|-A):
+=========================
+[-160 1 0 1 0]
+[0 1 0 0 0]
+[-160 1 1 0 0]
+[400 -1 -1 -1 0]
+[240 -1 0 -1 0]
+[240 -1 -1 0 0]
+[-320 0 1 1 0]
+
+Ax = b, given as (b|-A):
+========================
+[-400 1 1 1 1]
+
+Computing hermitean normal form.
+sol:
+[-400 0 0 0]
+Particular solution:
+[400 0 0 0]
+Basis:
+[-1 1 0 0]
+[-1 0 1 0]
+[-1 0 0 1]
+New inequalities:
+[240 -1 0 -1 0]
+[400 -1 -1 -1 0]
+[240 0 -1 -1 0]
+[0 0 0 1 0]
+[-160 1 0 1 0]
+[-160 0 1 1 0]
+[-320 1 1 0 0]
+Time for reading and preprocessing: 0 sec
+(First dualizing back... Dualizing all cones...Ray Support Algorithm.
+The codimension is 7
+
+  Left =   3,  Col =   4,  Size =        4  Time:  0.00
+  Left =   3,  Col =   4,  Size =        5,   Index = 0/1
+  Left =   3,  Col =   4,  Size =        5,  Time:  0.00                
+
+  Left =   2,  Col =   6,  Size =        5  Time:  0.00
+  Left =   2,  Col =   6,  Size =        4,   Index = 0/2
+  Left =   2,  Col =   6,  Size =        6,  Time:  0.00                
+
+  Left =   1,  Col =   5,  Size =        6  Time:  0.00
+  Left =   1,  Col =   5,  Size =        6,   Index = 0/1
+  Left =   1,  Col =   5,  Size =        6,  Time:  0.00                
+All cones are now dualized.
+Time for dualizing general cones: 0 sec
+done!) Triangulating cone... Ray Support Algorithm.
+The codimension is 7
+
+  Left =   2,  Col =   5,  Size =        5  Time:  0.00
+  Left =   2,  Col =   5,  Size =        6,   Index = 0/2
+  Left =   2,  Col =   5,  Size =        9,  Time:  0.00                
+
+  Left =   1,  Col =   6,  Size =        9  Time:  0.00
+  Left =   1,  Col =   6,  Size =        7,   Index = 0/4
+  Left =   1,  Col =   6,  Size =       11,  Time:  0.00                
+done.
+
+Volume (using the triangulation-determinant method)
+     Answer: 512000/3
+     Decimal: 170666.66666666666666666666666667
+     Time: 0.00 sec
+Computational time (algorithms + processing + program control)
+     Total time: 0.00 sec

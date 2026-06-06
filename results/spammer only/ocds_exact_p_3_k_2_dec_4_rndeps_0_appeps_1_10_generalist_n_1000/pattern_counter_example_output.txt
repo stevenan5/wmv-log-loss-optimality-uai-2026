@@ -1,0 +1,27 @@
+Overriding self.rounding_epsilon to be 0 because weighting strategy supports exact computation of conditional distribution.self.decimal_places will also be ignored.
+No bookkeeping file found, writing new bookkeeping .mat file to  ./results/ocds_exact_p_3_k_2_dec_4_rndeps_0_appeps_1_10_generalist_n_1000/ocds_exact_p_3_k_2_dec_4_rndeps_0_appeps_1_10_generalist_n_1000_bookkeeping.mat
+Number of patterns/dimensions:  8
+Constructing input file for  EPS_OPT_PATTERNS
+Dimension of polytope is  7
+Constructing input file for  POSSIBLE_PATTERNS_VREP
+Intermediate vertices count:  3764
+Dimension of polytope is  7
+--------------------------------------
+Command:  integrate
+Polytope type:  EPS_OPT_PATTERNS
+Exact Result:  True
+Running:  integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_3_k_2_dec_4_rndeps_0_appeps_1_10_generalist_n_1000/input_0_run_0.ine
+
+Output Volume:  633618647275878906250000000/3661821189
+True rule accuracies are:  ['3/5', '3/5', '3/5']
+True class frequencies are:  ['1/2', '1/2']
+--------------------------------------
+Command:  integrate
+Polytope type:  POSSIBLE_PATTERNS_VREP
+Exact Result:  True
+Running:  integrate --valuation=volume --triangulate --triangulation=4ti2 --dualization=4ti2 --compute-vertex-cones=4ti2 --cdd ./results/ocds_exact_p_3_k_2_dec_4_rndeps_0_appeps_1_10_generalist_n_1000/input_0_run_2.ine
+
+Output Volume:  12500000000000000000/63
+Optimal to possible patterns ratio:  9083556927347/10415846937600
+Possible to all patterns ratio:  1
+--------------------------------------

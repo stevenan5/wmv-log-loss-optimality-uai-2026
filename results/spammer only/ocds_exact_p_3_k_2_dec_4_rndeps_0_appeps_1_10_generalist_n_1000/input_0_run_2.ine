@@ -1,0 +1,24 @@
+* Polytope enum: POSSIBLE_PATTERNS_VREP
+* Construction Information:
+* n_classes: 2
+* n_rules: 3
+* n_patterns (dimensions): 8
+* polytope dimension: 7
+* true accs: [mpq(3,5) mpq(3,5) mpq(3,5)]
+* true class_freqs: [mpq(1,2) mpq(1,2)]
+* rounding epsilon: 0
+* appropriateness epsilon: 1/10
+H-representation
+linearity 1  9
+begin
+ 9 9 rational
+ 0 1 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0
+ 0 0 0 1 0 0 0 0 0
+ 0 0 0 0 1 0 0 0 0
+ 0 0 0 0 0 1 0 0 0
+ 0 0 0 0 0 0 1 0 0
+ 0 0 0 0 0 0 0 1 0
+ 1000 -1 -1 -1 -1 -1 -1 -1 0
+ -1000 1 1 1 1 1 1 1 1
+end
